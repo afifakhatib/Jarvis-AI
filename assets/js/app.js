@@ -53,18 +53,15 @@ function takeCommand(message) {
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
-    }
-    else if (message.includes("whats your name")) {
+    }else if (message.includes("whats your name")) {
         speak("My name is JARVIS");
     } else if (message.includes("Nice to meet you ,jarvis")) {
         speak("Nice to meet you too , Boss");
     }else if (message.includes("Who Developed you")) {
         speak("I am inspriational project by CODE WITH RANDOM created by MISS.syeda");
-    }
-    else if (message.includes("Be specific")) {
+    }else if (message.includes("Be specific")) {
         speak("I will");
-    }
-    else if (message.includes("open instagram")) {
+    }else if (message.includes("open instagram")) {
         window.open("https://instagram.com", "_blank");
         speak("Opening Instagram...");
     }else if (message.includes("open youtube")) {
