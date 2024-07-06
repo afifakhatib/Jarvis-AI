@@ -61,6 +61,9 @@ function takeCommand(message) {
     }else if (message.includes("Who Developed you")) {
         speak("I am inspriational project by CODE WITH RANDOM created by MISS.syeda");
     }
+    else if (message.includes("Be specific")) {
+        speak("I will");
+    }
     else if (message.includes("open instagram")) {
         window.open("https://instagram.com", "_blank");
         speak("Opening Instagram...");
